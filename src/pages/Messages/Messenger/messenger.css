@@ -1,0 +1,57 @@
+.card-messenger {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card__title {
+  padding: 16px;
+}
+
+.card__divider {
+  margin: 0;
+}
+
+.card__chat-box {
+  flex: 1 1 auto;
+  position: relative;
+  overflow: auto;
+  padding-left: 18px;
+  padding-right: 18px;
+  scroll-behavior: smooth;
+}
+
+.card__mesenger-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.card__input {
+  padding: 12px;
+  max-height: 190px;
+}
+
+.card__input-text-area {
+  margin: 0px;
+}
+
+.card__input-col-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__input-col-right-button {
+  margin: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card__input {
+    padding: 12px;
+    max-height: 190px;
+  }
+}

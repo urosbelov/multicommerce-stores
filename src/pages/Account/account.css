@@ -1,0 +1,14 @@
+.wrapper {
+  background-color: #fff;
+  padding: 20px;
+}
+
+@media (max-width: 599px) {
+  .menu {
+    width: 100%;
+  }
+  .wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.row {
+  height: 750px;
+}
+
+.col {
+  height: 100%;
+}
+
+.card {
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-connections {
+    width: 100%;
+    height: auto;
+  }
+
+  .col-messenger {
+    width: 100%;
+    height: auto;
+  }
+}

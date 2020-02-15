@@ -1,0 +1,21 @@
+.col-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.col-left__login-form {
+  max-width: 300px;
+}
+
+.col-left__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-right {
+  background-color: #00a699;
+  height: 100vh;
+}

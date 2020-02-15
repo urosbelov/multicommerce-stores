@@ -1,0 +1,10 @@
+.dropdown {
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.avatar {
+  margin-right: 12px;
+}

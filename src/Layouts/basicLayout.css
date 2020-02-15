@@ -1,0 +1,28 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  margin: 24px 16px;
+  padding: 2;
+  height: 100%;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.avatar {
+  margin-right: 7px;
+}
